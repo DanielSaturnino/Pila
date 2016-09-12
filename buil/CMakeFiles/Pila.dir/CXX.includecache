@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Nodo.h
+iostream
+-
+
+../include/Pila.h
+Nodo.h
+../include/Nodo.h
+
+/home/daniel/Documentos/Pila/src/Pila.cpp
+Pila.h
+/home/daniel/Documentos/Pila/src/Pila.h
+
+/home/daniel/Documentos/Pila/src/main.cpp
+Pila.h
+/home/daniel/Documentos/Pila/src/Pila.h
+
